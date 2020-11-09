@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Times New Roman', Times, serif;
+ background-image:url('components/schoole.webp');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ color: #fff;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  margin: 20% auto;
+  
+}
+.backColor{
+  background: rgb(8, 112, 248);
+  
+}
+
+.ListItems p {
+   margin: 0;
+   text-align: center;
+   padding: 10px 0px;
+}
+
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+}
+.App{
+  background: #00EFEF;
+  width: 70%;
+  
+  
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  
+}
+.delete{
+  color: red;
+  font-weight:bold;
+}
+.hederName {
+  display: inline-block;
+  width:350px;
+  
+  border: 2px solid #258;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.headerGrade{
+  display: inline-block;
+  width: 100px;
+  border: 2px solid #258;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.headerSt{
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #258;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.headerAge{
+  display: inline-block;
+  width: 100px;
+  border: 2px solid #258;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+}
+.action{
+  display: inline-block;
+  width: 100px;
+  border: 2px solid #258;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.header{
+text-align: center;
+}
+.result{
+  font-size: 25px;
+  color: red;
+  padding: 0 35%;
+  font-weight: bolder;
 }
